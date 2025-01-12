@@ -64,7 +64,7 @@ public class SeleniumScenarioTest {
 
     @Order(2)
     @Test
-    public void test_pagination10pt() {
+    public void test_pagination_10pt() {
         SubmissionHelper.startTest("test-pagination-10");
         int pageSize = 5;
         int pageNum = 1;
